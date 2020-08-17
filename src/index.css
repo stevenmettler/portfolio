@@ -17,13 +17,22 @@
 }
 
 #hellobutton:focus {
-  box-shadow: 0 0 0 0 #fff
+  box-shadow: 0 0 0 0 #fff;
 }
 
 #linktext {
-  color: rgb(140, 138, 143)
+  color: rgb(140, 138, 143);
 }
 
 #bodydiv {
-  padding: 50px 50px 200px 200px
+  /* padding: 50px 50px 200px 200px; */
+  /* padding: 50% 50% 0 0 */
+  padding: 50px 25% 50px 25%
+}
+
+#watertextdiv {
+  margin: auto;
+  width: 10%;
+  padding: 0px 10px 10px 10px;
+
 }

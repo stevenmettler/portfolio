@@ -17,10 +17,12 @@ export default function NavBar() {
             title={` steven mettler `}
           >
             <Dropdown.Item eventKey="1"><Link to="/" id='linktext'>home</Link></Dropdown.Item>
-            <Dropdown.Item eventKey="2"><Link to="/resume" id='linktext'>resume</Link></Dropdown.Item>
-            <Dropdown.Item eventKey="3"><Link to="/articles" id='linktext'>articles</Link></Dropdown.Item>
+            <Dropdown.Item eventKey="2"><Link to="/about" id='linktext'>about</Link></Dropdown.Item>
+            <Dropdown.Item eventKey="3"><Link to="/resume" id='linktext'>resume</Link></Dropdown.Item>
+            <Dropdown.Item eventKey="4"><Link to="/projects" id='linktext'>projects</Link></Dropdown.Item>
+            <Dropdown.Item eventKey="4"><Link to="/john" id='linktext'>john</Link></Dropdown.Item>
             <Dropdown.Divider />
-            <Dropdown.Item eventKey="4">links</Dropdown.Item>
+            <Dropdown.Item eventKey="5">links</Dropdown.Item>
           </DropdownButton>
         </Navbar>
       </div>
