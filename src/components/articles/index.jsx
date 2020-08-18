@@ -7,7 +7,7 @@ import { Button, Nav } from 'react-bootstrap';
 export default function Articles() {
     return (
       <>
-      <div>
+      <div id='bodydiv'>
       poop poop poop
         FROM
         Articles

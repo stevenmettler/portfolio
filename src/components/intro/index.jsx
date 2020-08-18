@@ -1,13 +1,13 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../../index.css';
 
 import { Button, Nav, Image } from 'react-bootstrap';
 
-export default function About() {
+export default function Intro() {
     return (
       <>
-      <div id='bodydiv'>
+      <div>
       <h5>
       "What Tarquin the Proud said in his garden with the poppy blooms was understood by the son but not by the messenger."
       </h5>

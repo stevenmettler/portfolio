@@ -12,7 +12,7 @@ import Projects from '../projects';
 export default function Body() {
     return (
       <>
-      <div id='bodydiv'>
+      <div>
             <Switch>
                 <Route path="/" component={Home} exact />
                 <Route path="/projects" component={Projects} />
