@@ -13,7 +13,8 @@
   #hellobutton {
     /* color: rgb(75, 236, 36); */
     /* color: #9DD572; */
-    color: #5E72A1;
+    /* color: #5E72A1; */
+    color: #875AA1;
     border-color: #fff;
     background-color: #fff;
 }
@@ -36,5 +37,20 @@
   margin: auto;
   width: 10%;
   padding: 0px 10px 10px 10px;
+
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: right;
+}
+.navbar-brand>img {
+  padding: 7px 14px;
+}
+#navbarbrandicons {
+
+  float: right !important;
+  margin-right: 10px;
+  opacity: 0.7;
 
 }

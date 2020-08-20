@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/navbar';
 import Body from './components/body';
+import NavBarFooter from './components/navbarfooter';
 import { BrowserRouter } from "react-router-dom";
 
 
@@ -13,6 +14,7 @@ function App({ title }) {
       <BrowserRouter>
       <NavBar />
       <Body />
+      <NavBarFooter />
       </BrowserRouter>
 
     </>

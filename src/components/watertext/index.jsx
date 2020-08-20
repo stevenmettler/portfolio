@@ -5,10 +5,13 @@ import '../../styles.css'
 
 const fast = { tension: 1200, friction: 40 }
 const slow = { mass: 10, tension: 200, friction: 50 }
+const slowest = { mass: 5, tension: 50, friction: 50 }
 const trans = (x, y) => `translate3d(${x}px,${y}px,0) translate3d(-50%,-50%,0)`
 
+// const color = d.y >= 70 ? "green" : (d.y < 50 ? "red" : "yellow");
+
 export default function WaterText() {
-  const [trail, set] = useTrail(3, () => ({ xy: [0, 0], config: i => (i === 0 ? fast : slow) }))
+  const [trail, set] = useTrail(4, () => ({ xy: [0, 0], config: i => (i === 0 ? fast : (i === 3 ? slowest : slow)) }))
   return (
     <>
       <svg style={{ position: 'absolute', width: 0, height: 0 }}>

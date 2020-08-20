@@ -40,8 +40,6 @@ export default function NavBar() {
                 john
               </Link>
             </Dropdown.Item>
-            <Dropdown.Divider />
-            <Dropdown.Item eventKey="5">links</Dropdown.Item>
           </DropdownButton>
         </Navbar>
       </div>

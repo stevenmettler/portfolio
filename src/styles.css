@@ -29,7 +29,7 @@ body {
   position: absolute;
   will-change: transform;
   border-radius: 50%;
-  background: lightcoral;
+  background: #F08181;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   opacity: 0.6;
 }
@@ -40,14 +40,20 @@ body {
 }
 
 .hooks-main > div:nth-child(2) {
-  width: 250px;
-  height: 250px;
+  width: 125px;
+  height: 125px;
 }
 
 .hooks-main > div:nth-child(3) {
   width: 150px;
   height: 150px;
 }
+
+.hooks-main > div:nth-child(4) {
+    width: 250px;
+    height: 250px;
+    background: #BEE078;
+  }
 
 .hooks-main > div::after {
   content: '';
@@ -61,10 +67,10 @@ body {
 }
 
 .hooks-main > div:nth-child(2)::after {
-  top: 70px;
-  left: 70px;
-  width: 70px;
-  height: 70px;
+  top: 42px;
+  left: 42px;
+  width: 42px;
+  height: 42px;
 }
 
 .hooks-main > div:nth-child(3)::after {
@@ -73,6 +79,13 @@ body {
   width: 50px;
   height: 50px;
 }
+
+.hooks-main > div:nth-child(4)::after {
+    top: 70px;
+    left: 70px;
+    width: 70px;
+    height: 70px;
+  }
 
 .hooks-main {
   position: absolute;
