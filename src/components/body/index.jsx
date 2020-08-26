@@ -8,6 +8,7 @@ import Resume from '../resume';
 import About from '../about';
 import John from '../john';
 import Projects from '../projects';
+import Articles from '../articles';
 
 export default function Body() {
     return (
@@ -20,6 +21,7 @@ export default function Body() {
                 <Route path="/resume" component={Resume} />
                 <Route path="/john" component={John} />
                 <Route path="/links" component={`../links`} />
+                <Route path="/articles" component={Articles} />
                 <Route component={Error} />
             </Switch>
       </div>

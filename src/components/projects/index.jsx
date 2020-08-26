@@ -18,7 +18,7 @@ export default function Projects() {
               API that tracks user's mood. Compare your moods with others! Check
               all of your submitted moods! Python, Flask
             </Card.Text>
-            <a href="#">Read more...</a>
+            <a href="/articles/moodapi">Read more...</a>
           </Card.Body>
         </Card>
         <br />
