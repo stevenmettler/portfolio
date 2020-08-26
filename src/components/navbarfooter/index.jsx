@@ -20,14 +20,14 @@ export default function NavBarFooter() {
       <div>
         <Navbar fixed="bottom">
           <NavbarBrand>
-            <a href="https://www.github.com/stevenmettler">
+            <a href="https://www.github.com/stevenmettler" target="_blank">
               <img id="navbarbrandicons"
                 src={GithubImg}
                 weign="40"
                 height="40"
               />
             </a>
-            <a href="https://www.linkedin.com/in/stevenmettler1">
+            <a href="https://www.linkedin.com/in/stevenmettler1" target="_blank">
               <img id="navbarbrandicons"
                 src={LinkedinImg}
                 weign="40"
