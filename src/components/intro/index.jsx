@@ -1,17 +1,16 @@
 import React from "react";
+import Markdown from "react-markdown";
 import './node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../../index.css';
+var src = "../../content/sample.md";
 
 import { Button, Nav, Image } from 'react-bootstrap';
 
 export default function Intro() {
     return (
       <>
-      <div>
-      <h5>
-      "What Tarquin the Proud said in his garden with the poppy blooms was understood by the son but not by the messenger."
-      </h5>
-      <Image src='original.jpg' fluid />
+      <div id="bodydiv">
+      <Markdown source={src} />
       </div>
       </>
     );

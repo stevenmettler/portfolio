@@ -15,30 +15,20 @@ export default function NavBar() {
             drop="right"
             title={` steven mettler `}
           >
-            <Dropdown.Item eventKey="1">
-              <Link to="/" id="linktext">
+            <Dropdown.Item href ="/" eventKey="1">
                 home
-              </Link>
             </Dropdown.Item>
-            <Dropdown.Item eventKey="2">
-              <Link to="/about" id="linktext">
+            <Dropdown.Item href ="/about" eventKey="2">
                 about
-              </Link>
             </Dropdown.Item>
-            <Dropdown.Item eventKey="3">
-              <Link to="/resume" id="linktext">
+            <Dropdown.Item href="/resume" eventKey="3">
                 resume
-              </Link>
             </Dropdown.Item>
-            <Dropdown.Item eventKey="4">
-              <Link to="/projects" id="linktext">
+            <Dropdown.Item href="/projects" eventKey="4">
                 projects
-              </Link>
             </Dropdown.Item>
-            <Dropdown.Item eventKey="4">
-              <Link to="/john" id="linktext">
+            <Dropdown.Item href="john" eventKey="4">
                 john
-              </Link>
             </Dropdown.Item>
           </DropdownButton>
         </Navbar>

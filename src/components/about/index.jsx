@@ -1,18 +1,18 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../index.css';
+import ReactMarkdown from "react-markdown";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../../index.css";
 
-import { Button, Nav, Image } from 'react-bootstrap';
+import { Button, Nav, Image } from "react-bootstrap";
+
+const markdown ='# This is a header\n\nAnd this is a paragraph';
 
 export default function About() {
-    return (
-      <>
-      <div id='bodydiv'>
-      <h5>
-      "What Tarquin the Proud said in his garden with the poppy blooms was understood by the son but not by the messenger."
-      </h5>
-      <Image src='original.jpg' fluid />
+  return (
+    <>
+      <div id="bodydiv">
+        <ReactMarkdown source={markdown} />
       </div>
-      </>
-    );
-  }
+    </>
+  );
+}

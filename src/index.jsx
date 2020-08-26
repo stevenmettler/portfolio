@@ -5,6 +5,8 @@ import NavBar from './components/navbar';
 import Body from './components/body';
 import NavBarFooter from './components/navbarfooter';
 import { BrowserRouter } from "react-router-dom";
+import { Document, Page, pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 function App({ title }) {
