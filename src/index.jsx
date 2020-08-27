@@ -25,7 +25,7 @@ function App({ title }) {
 
 ReactDOM.render(
   <React.StrictMode>
-    <App title="Hello React App" />
+    <App title="steven mettler" />
   </React.StrictMode>,
   document.getElementById("root")
 );
