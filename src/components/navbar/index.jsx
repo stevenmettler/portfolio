@@ -22,10 +22,10 @@ export default function NavBar() {
             drop="right"
             title={` steven mettler `}
           >
-            <Dropdown.Item to="/" eventKey="1">
+            <Dropdown.Item href="/" eventKey="1">
               home
             </Dropdown.Item>
-            <Dropdown.Item to="/about" eventKey="2">
+            <Dropdown.Item href="/about" eventKey="2">
               about
             </Dropdown.Item>
             <Dropdown.Item href="/resume" eventKey="3">
