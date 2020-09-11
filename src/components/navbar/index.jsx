@@ -23,19 +23,19 @@ export default function NavBar() {
             title={` steven mettler `}
           >
             <Dropdown.Item href="/" eventKey="1">
-              <Link to="/">home</Link>
+              home
             </Dropdown.Item>
             <Dropdown.Item href="/about" eventKey="2">
-              <Link to="/about">about</Link>
+              about
             </Dropdown.Item>
             <Dropdown.Item href="/resume" eventKey="3">
-              <Link to="/resume">resume</Link>
+              resume
             </Dropdown.Item>
             <Dropdown.Item href="/projects" eventKey="4">
-              <Link to="/projects">projects</Link>
+              projects
             </Dropdown.Item>
-            <Dropdown.Item href="john" eventKey="4">
-              <Link to="/john">john</Link>
+            <Dropdown.Item href="/john" eventKey="4">
+              john
             </Dropdown.Item>
           </DropdownButton>
         </Navbar>
