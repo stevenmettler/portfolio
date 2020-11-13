@@ -25,16 +25,16 @@ export default function NavBar() {
             <Dropdown.Item href="/" eventKey="1">
               home
             </Dropdown.Item>
-            <Dropdown.Item href="/about" eventKey="2">
+            <Dropdown.Item href="#/about" eventKey="2">
               about
             </Dropdown.Item>
-            <Dropdown.Item href="/resume" eventKey="3">
+            <Dropdown.Item href="#/resume" eventKey="3">
               resume
             </Dropdown.Item>
-            <Dropdown.Item href="/projects" eventKey="4">
+            <Dropdown.Item href="#/projects" eventKey="4">
               projects
             </Dropdown.Item>
-            <Dropdown.Item href="/john" eventKey="4">
+            <Dropdown.Item href="#/john" eventKey="4">
               john
             </Dropdown.Item>
           </DropdownButton>
