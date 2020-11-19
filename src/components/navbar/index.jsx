@@ -34,9 +34,9 @@ export default function NavBar() {
             <Dropdown.Item href="#/projects" eventKey="4">
               projects
             </Dropdown.Item>
-            <Dropdown.Item href="#/john" eventKey="4">
+            {/* <Dropdown.Item href="#/john" eventKey="4">
               john
-            </Dropdown.Item>
+            </Dropdown.Item> */}
           </DropdownButton>
         </Navbar>
       </div>
